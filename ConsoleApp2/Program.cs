@@ -32,10 +32,18 @@ namespace ConsoleApp2
 
          Console.WriteLine("Hallo\\Welt");
 
-         
+         string input1 = Console.ReadLine();                        //Wartet auf den Eingabestrom und gibt die Zeichenfolge als string wieder
+         Console.WriteLine($"Die Eingabe ist: {0}",input1);         //Der Zeilenunbruch wird bei ReadLine aus dem Eingabestrom gelöscht
+         Console.WriteLine($"Die Eingabe ist: {input1}");
 
-         
-                 
+         int input2 = Console.Read();                               //Read liest den ersten eingabewert als Dezimalen ASCII-Wert aus 
+         Console.WriteLine(input2);                                 //Der Zeilenumbruch wird nicht aus dem Eingabestrom gelöscht
+         Console.ReadLine();                                        //gepuffert bis eine Methode wie ReadLine sie direkt verarbeitet
+
+
+
+
+
 
 
 
