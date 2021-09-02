@@ -29,6 +29,12 @@ namespace ConsoleApp2
          Console.WriteLine("value3={0:P4}", value3);
          Console.WriteLine($"a={a},b={b}");
          Console.WriteLine("a={0},b={1}", a, b);
+
+         Console.WriteLine("Hallo\\Welt");
+
+         
+
+         
                  
 
 
