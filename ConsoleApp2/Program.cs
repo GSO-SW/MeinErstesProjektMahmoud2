@@ -6,23 +6,24 @@ namespace ConsoleApp2
     {
         static void Main()
         {
-            Console.WriteLine("Hallo");
+         Console.ReadKey();
 
-            Console.ReadLine();
+         
 
-            Console.ReadKey();
+         int value = 23;
 
-            int value;
+         double value2 = 1000.11;
+         Console.WriteLine(value + value2);
 
-            value = 23;
+         long a = 10, b = 1000000000000000000;
 
-            double value2 = 1000.11;
-            Console.WriteLine(value + value2);
+         Console.WriteLine
+                ("Wert von 'a' = {0}\nWert von 'b' = {1}", a, b);
 
-            long a = 10, b = 1000000000000000000;
+         Console.WriteLine("Ich kauf {0.,3} Eier", a);
 
-            Console.WriteLine
-                ("Wert von 'a' = {0}\nWert von 'b' = {1}", b, a);
+
+
 
 
 
